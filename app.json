@@ -6,17 +6,29 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#1E40AF"
-    },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#1E40AF"
+      },
+      "package": "com.electrozone.app",
+      "googleServicesFile": "./google-services.json"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#1E40AF"
+        }
+      ]
+    ],
+    "scheme": "electrozone",
+    "extra": {
+      "eas": {
+        "projectId": "0dfad27a-f641-490c-a976-365c7ab170c0"
       }
     },
-    "scheme": "electrozone"
+    "owner": "kunalx07"
   }
 }

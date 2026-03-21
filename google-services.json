@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "513140748468",
+    "project_id": "electrozone-8fb64",
+    "storage_bucket": "electrozone-8fb64.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513140748468:android:002daf2c270def97caa7e1",
+        "android_client_info": {
+          "package_name": "com.electrozone.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIBLh01vywMdaYGQ3fXDENBdpguCDuyK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

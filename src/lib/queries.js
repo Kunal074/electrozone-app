@@ -20,6 +20,11 @@ export const getUsedPhone  = async (id) => {
   return res.data;
 };
 
+export const getMyPurchases = async () => {
+  const res = await api.get('/offline-sales/my/purchases');
+  return res.data;
+};
+
 // ── BANNERS ──
 export const getBanners = async () => {
   const res = await api.get('/banners');
