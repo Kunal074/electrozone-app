@@ -41,6 +41,5 @@ yarn-error.*
 /android
 
 node_modules 
-google-services.json
+
 .env
-GoogleService-Info.plist
